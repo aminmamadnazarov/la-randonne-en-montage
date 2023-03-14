@@ -1,0 +1,59 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+figure {
+    width: 420px;
+    padding: 10px;
+
+}
+
+figure img {
+    width: 100%;
+    opacity: 1;
+}
+
+
+figure img:hover {
+    opacity: 0.7;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #abacac;
+    color: black;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #abacac;
+    height: auto;
+    width: auto
+    padding-top: 100px;
+    color: bla
+}

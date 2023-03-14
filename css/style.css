@@ -1,0 +1,16 @@
+header
+{
+    background-image: url(../pics/header.jpg);
+    background-size: 100% 400px;
+    background-position: center;
+    position: relative;
+}
+
+.navigation{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin: 10px;
+}
+header{
+}
